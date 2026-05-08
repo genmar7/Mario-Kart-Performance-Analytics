@@ -18,7 +18,7 @@ df = df.iloc[:-3]
 
 # rename & clean columns  
 df = df.rename(columns={'Unnamed: 2':'Race Speed','Time+Video':'Time'})
-df["Track"] = df["Track"].str.replace("150cc 200cc", "")
+df["Track"] = df["Track"].str.replace("150cc  200cc", "")
 
 # fix 'race speed' pattern (handles tie at rows 57-58)
 df.loc[:57, 'Race Speed'] = ['150cc', '200cc'] * (58//2)
