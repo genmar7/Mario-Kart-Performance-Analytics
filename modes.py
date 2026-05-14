@@ -5,7 +5,14 @@ Analyzing Mario Kart world records to find most-used drivers, vehicles, tires, a
 - Creates summary table with mode, count, and percentage for kart parts
 - Exports cleaned data and summary table
 
-Requirements: pandas
+Requirements: 
+- pandas
+- mk_world_records.csv with columns:
+    - Track
+    - Character  
+    - Vehicle
+    - Tires
+    - Glider
 """
 # %%
 #load data
