@@ -7,3 +7,4 @@ Using web-scraped data from race results, it demonstrates data cleaning and expl
 - Applies outlier detection techniques to identify anomalous driver setups.
 - Visualizes relationships between components and race outcomes.
 - Fully reproducible with provided code, sample data, and documentation.
+- Run 'modes.py' to find most-used drivers, vehicles, tires, and gliders in world records. 
